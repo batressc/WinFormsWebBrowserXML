@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example xmlns="http://batrianoworld.batressc.com" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://batressc.com xchema-not-exists.xsd">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <ds:Reference Id="Reference-d29f4c0d-b4d5-469a-a40e-60b119793c11" URI="">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>novCEGwKqUzygM6hRtCtjmRsctpJ5IRKT33kOwVAPLA=</ds:DigestValue>
+            </ds:Reference>
+            <ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>7usHktmQ1nvQaIsHoC230IQefAFK9yRcjm9qzLstqDs=</ds:DigestValue>
+            </ds:Reference>
+            <ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>Mh2lJ9s7jfu8ffQS/P8Me4gs6e8OG/dRKTV6Ree/j6U=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue Id="SignatureValue-e1ba40d5-c549-4b19-86d4-88a4842b49af">sGgwv3DifAXcAGi8Wn7C4DffH4YBxF8wh+beLC7iLrD4+K/QMwNSm4WW0jyCCARdoTAiqU7aHKa4fQPpZndO4E22B93srSV1Xqn2ijwwSk3rAWQE7LY4fjeoElfxfsmh8ntMxgBI1WWVx6Wd6+PgeMakY/G73lRAUNNkpNyclPo1s6C/Azzew49EFa2PCjl7esI5wR0nylyW41uDL18G8vqYp6ze0dn/jD6ktzk4YxTdtrV+92mp2a9se+CRSSGKY/GkMUmVRMgAx8c5xiQ/vKdc3m9CeoHhSZR6gr3ZWZVlYqajPLUfl91evUnOn2W1CP12fl4S2B+TR6ar3/hdHQ==</ds:SignatureValue>
+        <ds:KeyInfo Id="KeyInfoId-Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+            <ds:X509Data>
+                <ds:X509Certificate>MIID+DCCAuCgAwIBAgIJAPw0N/PauuupMA0GCSqGSIb3DQEBCwUAMIGQMSYwJAYDVQQDDB1MVUlTIEdVU1RBVk8gRkVSTkFOREVaIEJBVFJFUzEMMAoGA1UECwwDQ1BGMRcwFQYDVQQKDA5QRVJTT05BIEZJU0lDQTELMAkGA1UEBhMCQ1IxDTALBgNVBCoMBDIwNDgxDDAKBgNVBAQMAzI1NjEVMBMGA1UEBRMMMDAwMDAyMDQ4MjU2MB4XDTE4MDYyMTA1MzgwNFoXDTE5MDYyMTA1MzgwNFowgZAxJjAkBgNVBAMMHUxVSVMgR1VTVEFWTyBGRVJOQU5ERVogQkFUUkVTMQwwCgYDVQQLDANDUEYxFzAVBgNVBAoMDlBFUlNPTkEgRklTSUNBMQswCQYDVQQGEwJDUjENMAsGA1UEKgwEMjA0ODEMMAoGA1UEBAwDMjU2MRUwEwYDVQQFEwwwMDAwMDIwNDgyNTYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ6XCG2dk8t1zBepnoM7LJztMOFNjuWVWNvw0o/Q9qH0slOlOGNF3ZFmvXpb3ebkMaNiB7c5qu8aZO20XDc06+USdBCXNHTq3JauBT1+1f7mynnytF9uw0TWEQ8RZmYoWmQMFpr/QuSIfFe2eWb5a7BTacF3gEHPLZ3cUMmseQBpN/to4RAw2hwCxBbPXSE6ZSuFmtRkz69yyEc/Ec8mIeMtXXizvYcvVuEpSegaXXmyE4rska4ltub8x2pZmK/Kd4tAHnpfkAeR8mfkT2eyVSSHlTSRZ2Iq96W8qkU0jP2EVVBvnqligA9r6YBhg9rd2KW5GH0WiLjKqHRVTd8RrtAgMBAAGjUzBRMB0GA1UdDgQWBBSRnkLmxkPR+Tgy4fDWzBnnEBlSszAfBgNVHSMEGDAWgBSRnkLmxkPR+Tgy4fDWzBnnEBlSszAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBju5MUXMppFtlX6eiH+vVuRzjp5V6UZM5EJS6xWtxdwI50EjglqniLmN1y2DctKihO+SMQSm8sjGy8sJn71mRIgfpGsrhMvuuiyf9TRsOlGFJk0fpRoVn5HgoQAn2xapY7JiHNaqdQXRJezGqLtjROdLVJeap2Kq5hLLZDchg2aaDLanCd3OX5mgzc4ggdcnqYPCiTa5spi3KpfZ8TV+oYd55gPV5t9L+1AylaJXfVXKwVS7OenZMXOxfWK63owx44o+rfEkq2qWYN0y0A2AcOUfgPKy1Mn3uFlIcGHn40ryL5eNSkNkFQxNrjdYEES8/Qh27c4cOWl03WoWSMVEHz</ds:X509Certificate>
+            </ds:X509Data>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>0OlwhtnZPLdcwXqZ6DOyyc7TDhTY7llVjb8NKP0Pah9LJTpThjRd2RZr16W93m5DGjYge3OarvGmTttFw3NOvlEnQQlzR06tyWrgU9ftX+5sp58rRfbsNE1hEPEWZmKFpkDBaa/0LkiHxXtnlm+WuwU2nBd4BBzy2d3FDJrHkAaTf7aOEQMNocAsQWz10hOmUrhZrUZM+vcshHPxHPJiHjLV14s72HL1bhKUnoGl15shOK7JGuJbbm/MdqWZivyneLQB56X5AHkfJn5E9nslUkh5U0kWdiKvelvKpFNIz9hFVQb56pYoAPa+mAYYPa3diluRh9Foi4yqh0VU3fEa7Q==</ds:Modulus>
+                    <ds:Exponent>AQAB</ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+        </ds:KeyInfo>
+        <ds:Object Id="XadesObjectId-2993c93d-9366-4150-bdb2-9e0db8e7fc00">
+            <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-b157fd3e-638d-482d-9386-1d65028c334c" Target="#Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+                <xades:SignedProperties Id="SignedProperties-Signature-e1ba40d5-c549-4b19-86d4-88a4842b49af">
+                    <xades:SignedSignatureProperties>
+                        <xades:SigningTime>2018-06-27T23:02:11-06:00</xades:SigningTime>
+                        <xades:SigningCertificate>
+                            <xades:Cert>
+                                <xades:CertDigest>
+                                    <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                    <ds:DigestValue>7c0gVMD/4O9OR7vbxU8g92SEcs4nwuDrBu/XeGv9WYc=</ds:DigestValue>
+                                </xades:CertDigest>
+                                <xades:IssuerSerial>
+                                    <ds:X509IssuerName>SERIALNUMBER=000002048256, SN=256, G=2048, C=CR, O=PERSONA FISICA, OU=CPF, CN=LUIS GUSTAVO FERNANDEZ BATRES</ds:X509IssuerName>
+                                    <ds:X509SerialNumber>18173211916833057705</ds:X509SerialNumber>
+                                </xades:IssuerSerial>
+                            </xades:Cert>
+                        </xades:SigningCertificate>
+                        <xades:SignaturePolicyIdentifier>
+                            <xades:SignaturePolicyId>
+                                <xades:SigPolicyId>
+                                    <xades:Identifier>http://batrianoworld.batressc.com</xades:Identifier>
+                                    <xades:Description />
+                                </xades:SigPolicyId>
+                                <xades:SigPolicyHash>
+                                    <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                                    <ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue>
+                                </xades:SigPolicyHash>
+                            </xades:SignaturePolicyId>
+                        </xades:SignaturePolicyIdentifier>
+                    </xades:SignedSignatureProperties>
+                    <xades:SignedDataObjectProperties>
+                        <xades:DataObjectFormat ObjectReference="#Reference-d29f4c0d-b4d5-469a-a40e-60b119793c11">
+                            <xades:MimeType>text/xml</xades:MimeType>
+                            <xades:Encoding>UTF-8</xades:Encoding>
+                        </xades:DataObjectFormat>
+                    </xades:SignedDataObjectProperties>
+                </xades:SignedProperties>
+            </xades:QualifyingProperties>
+        </ds:Object>
+    </ds:Signature>
+</Example>

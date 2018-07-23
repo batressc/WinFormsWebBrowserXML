@@ -20,6 +20,6 @@ namespace WebBrowserXML {
         }
 
         public char[] DataChar { get; private set; }
-        public byte[] DataByte { get; set; }
+        public byte[] DataByte { get; private set; }
     }
 }
